@@ -1,0 +1,53 @@
+.fire{
+    position: relative;
+}
+.tea{  
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./6.jpg);
+    filter: blur(6px);
+}
+.seven{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    border: 3px solid red;
+    border-radius: 20px;
+    box-shadow: 8px 8px 6px gray;
+    top: 15vw;
+    left: 45vw;
+}
+#hj{
+    display: flex;
+    font-size: 30px;
+    font-weight: 100;
+    color: red;
+    justify-content: center; 
+}
+.ty{
+    margin-left: 70px;
+    border: 2px solid red;
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+}
+.nm{
+    position: absolute;
+    background-color: red;
+    color: white;
+    border: 5px solid red;
+    border-radius: 20px;
+    margin-left: 125px;
+    text-decoration: none;
+    font-size: 40px;
+}
+@media (max-width:800px)
+{
+    .fire{
+        position: relative;
+    }
+    .tea{
+        background-image: url(./8.jpg);
+    }
+  
+}
